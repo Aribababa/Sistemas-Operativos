@@ -9,7 +9,11 @@ This project is about a char driver to control an external LED for a Rapberry Pi
 Show what the library does as concisely as possible, developers should be able to figure out how your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
 
-<i> Led.h</i>
+<i> Led.h</i></br>
+This .h file is the library for controling the LED and create PWM signals.</br>
+<i>GPIO_driver.c</i></br>
+This file is the char driver that initialize
+
 <b>Motivation</b>
 
 A short description of the motivation behind the creation and maintenance of the project. This should explain why the project exists.
