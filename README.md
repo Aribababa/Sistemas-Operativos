@@ -24,6 +24,6 @@ Describe and show how to run the tests with code examples.
 
 <b>Contributors</b>
 
-Ramiro Manuel Rubio Contreras (ramirorubioc@gmail.com)
-Víctor Ramírez Zepeda (victorrz319@gmail.com)
-Rafael López Peña (rfa.lopez.pena@gmail.com)
+Ramiro Manuel Rubio Contreras (ramirorubioc@gmail.com)</br>
+Víctor Ramírez Zepeda (victorrz319@gmail.com)</br>
+Rafael López Peña (rfa.lopez.pena@gmail.com)</br>
