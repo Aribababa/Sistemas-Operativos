@@ -24,4 +24,6 @@ Describe and show how to run the tests with code examples.
 
 <b>Contributors</b>
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+Ramiro Manuel Rubio Contreras (ramirorubioc@gmail.com)
+Víctor Ramírez Zepeda (victorrz319@gmail.com)
+Rafael López Peña (rfa.lopez.pena@gmail.com)
