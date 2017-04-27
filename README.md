@@ -10,7 +10,7 @@ This .h file is the library for controling the LED and create PWM signals.</br>
 <i>GPIO_driver.c</i></br>
 This file is the char driver that initialize</br>
 <i> test.c</i></br>
-Contains a vasic test for teh driver we made.</br>
+Contains a basic test for teh driver we made.</br>
 
 <b>Motivation</b>
 
