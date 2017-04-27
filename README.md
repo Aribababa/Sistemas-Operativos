@@ -18,15 +18,12 @@ A short description of the motivation behind the creation and maintenance of the
 
 <b>Installation</b>
 
-Provide code examples and explanations of how to get the project.
-
-<b>API Reference</b>
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+In order to run the drive, you need to clone all the files into your computer, then create the module using the commands shown on the Makefie and finally run the test code.
 
 <b>Tests</b>
 
-Describe and show how to run the tests with code examples.
+The test we made is in the repository with the name of test.c</br>
+That code puts a period for th ePWM signal and runs the PWM function</br>
 
 <b>Contributors</b>
 
