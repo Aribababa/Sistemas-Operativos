@@ -1,3 +1,11 @@
+/*
+*	Char driver for GPIO 
+*	Authors:
+*		Ramiro Manuel Rubio
+*		Victor Ramirez
+*		Rafael López
+*/
+
 #include <linux/init.h>
 #include <linux/kernel.h>
 #include <linux/module.h>
