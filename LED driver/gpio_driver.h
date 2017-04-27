@@ -49,17 +49,19 @@ void led_on(void)
 void led_off(void)
 {
         signed int fd, ret;
-        fd = open("/dev/gpio_driver", O_RDWR);
-
+        fd = open("/dev/gpio_driver", O_RDWR);  /* Abrimos el archivo del driver */
+        /* Verificamos si es que pudimos hacer el SysCall */
         if (fd < 0)
         {
-        perror("Failed to open the device...");
-    }
+             perror("Failed to open the device...");
+        }
 
-    ret = write(fd, "11", 1);
-    if (ret < 0){
-        perror("Failed to write the message to the device.");
-   }
+    ret = write(fd, "11", 1);   /* Escribimos en el nodo para cambiar el led */
+    /* En caso de que ocurra un error */
+    if (ret < 0)
+    {
+            perror("Failed to write the message to the device.");
+     }
 }
 
 void PWM(unsigned long duty_cycle)
