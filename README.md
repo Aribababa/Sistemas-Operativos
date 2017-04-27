@@ -1,18 +1,16 @@
 <b>Synopsis</b>
 
-At the top of the file there should be a short introduction and/ or overview that explains what the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
-
 This project is about a char driver to control an external LED for a Rapberry Pi.
 
 <b>Code Example</b>
-
-Show what the library does as concisely as possible, developers should be able to figure out how your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
 
 <i> Led.h</i></br>
 This .h file is the library for controling the LED and create PWM signals.</br>
 <i>GPIO_driver.c</i></br>
-This file is the char driver that initialize
+This file is the char driver that initialize</br>
+<i> test.c</i>
+Contains a vasic test for teh driver we made.</br>
 
 <b>Motivation</b>
 
