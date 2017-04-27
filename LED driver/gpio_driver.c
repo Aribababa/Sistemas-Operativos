@@ -1,4 +1,4 @@
-include <linux/init.h>
+#include <linux/init.h>
 #include <linux/kernel.h>
 #include <linux/module.h>
 
@@ -10,11 +10,11 @@ include <linux/init.h>
 
 #define DEVICE_NAME     "gpio_device"
 #define DEVICE_MAJOR    240
-#define GPIO_num    4
+#define GPIO_num        4
 
 MODULE_LICENSE("GPL");
-MODULE_DESCRIPTION("Device Driver Demo");
-MODULE_AUTHOR("cer1991");
+MODULE_DESCRIPTION("GPIO driver");
+MODULE_AUTHOR("RRV");
 
 static unsigned long procfs_buffer_size = 0;
 static char buffer_data[3];
