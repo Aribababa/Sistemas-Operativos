@@ -64,7 +64,7 @@ void led_off(void)
 
 void PWM(unsigned long duty_cycle)
 {
-        duty_cycle = duty_cycle* 10000;
+        duty_cycle = duty_cycle * (period/100);
         while(1)
         {
                 led_off();
