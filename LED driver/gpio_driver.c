@@ -1,10 +1,11 @@
 /*
-*	Char driver for GPIO 
-*	Authors:
-*		Ramiro Manuel Rubio
-*		Victor Ramirez
-*		Rafael López
-*/
+ * Header for the GPIO driver
+ * Authors:
+ *      Ramiro Manuel Rubio Contreras   (ramirorubioc@gmail.com)
+ *      Rafael Lopez Peña	            (rfa.lopez.pena@gmail.com)
+ *	Victor Ramirez Zepeda		        (victorrz319@gmail.com)
+ *
+ */
 
 #include <linux/init.h>
 #include <linux/kernel.h>
