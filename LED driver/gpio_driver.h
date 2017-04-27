@@ -5,10 +5,6 @@
 #include <string.h>
 #include <unistd.h>
 
-
-//static struct timer_list my_timer;
-
-
 void led_on(void);
         /* Prende el LED asociado con el driver */
 
@@ -16,10 +12,13 @@ void led_off(void);
         /* Apaga el LED asociado con el driver */
 
 void PWM(unsigned long duty_cycle);
+        /* Genera una señal de PWM*/
 
 void PWM_period_us(unsigned long _period);
+        /* Coloca un nuevo periodo al PWM */
 
-unsigned long period;
+unsigned long period = 1000000;   /* El periodod actual del PWM*/
+                                  /* Por default el periodo es de 1 segundo */
 
 void led_on(void)
 {
